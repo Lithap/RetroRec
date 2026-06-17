@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>RetroRec</AssemblyName>
+    <Product>RetroRec</Product>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+
+  <!--
+    External references (BepInEx, Harmony, Unity, Photon, etc.) are game‑specific
+    and must be supplied via local DLL references or a NuGet source that provides
+    them.  Placeholder Reference items are listed below so the project structure
+    is clear; adjust HintPath values to match your local setup.
+  -->
+  <ItemGroup>
+    <Reference Include="BepInEx.Unity.IL2CPP" />
+    <Reference Include="BepInEx.Core" />
+    <Reference Include="0Harmony" />
+    <Reference Include="Il2Cppmscorlib" />
+    <Reference Include="Il2CppSystem" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="PhotonRealtime" />
+  </ItemGroup>
+
+</Project>
